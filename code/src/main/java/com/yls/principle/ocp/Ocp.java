@@ -1,6 +1,4 @@
-package com.yls.designpattern.ocp;
-
-import java.awt.font.ShapeGraphicAttribute;
+package com.yls.principle.ocp;
 
 public class Ocp {
     public static void main(String[] args) {

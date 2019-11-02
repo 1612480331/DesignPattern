@@ -1,4 +1,4 @@
-package com.yls.designpattern.dependenceinversion;
+package com.yls.principle.dependenceinversion;
 
 /**
  * 场景：一个人接收一条消息
@@ -42,6 +42,10 @@ class Email implements Message {
     public void getInfo() {
         System.out.println("email");
     }
+}
+
+class A{
+    private int a;
 }
 
 class Person implements IReceiver {
