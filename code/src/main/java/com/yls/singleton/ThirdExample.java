@@ -1,6 +1,16 @@
 package com.yls.singleton;
 
+
 public class ThirdExample {
+    private static class B {
+        public static int a = 1;
+
+    }
+
+    public static void main(String[] args) {
+        System.out.println(B.a);
+    }
+
 }
 
 
@@ -16,7 +26,15 @@ class Singleton5 {
     private Singleton5() {
 
     }
-    public static Singleton5 getInstance(){
+
+    private static int a = 1;
+
+    public static Singleton5 getInstance() {
+        //该类可以调用内部类的私有变量
         return holder.singleton5;
+    }
+
+    class A {
+
     }
 }

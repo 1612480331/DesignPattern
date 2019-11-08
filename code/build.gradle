@@ -16,5 +16,6 @@ dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
 
     implementation("org.projectlombok:lombok:1.18.10",
+            "joda-time:joda-time:2.10.5",
             'cglib:cglib-full:2.0.2')
 }
